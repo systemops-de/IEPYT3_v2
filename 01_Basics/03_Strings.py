@@ -81,5 +81,42 @@ print(course_name) #    einFühRunG iN pyTHoN  PyTHoN
 # overwrite the original variable with the new changed value
 course_name = course_name.strip().title()
 print(course_name) # Einführung In Python  Python
+print()
 
 ##################################################
+# String Concatenation
+first_name = "Thomas"
+last_name = "Meier"
+print(first_name + last_name)
+
+
+full_name = first_name + " " +  last_name
+print(full_name)
+
+####################################################
+# String formatting -> To build a string content
+first_name = "Sven"
+last_name = "Meier"
+
+full_name = "FN: {}  -  LN: {}".format(first_name, last_name)
+print(full_name)
+
+# Alternative
+full_name = f"FN: {first_name}  -  LN: {last_name}"
+print(full_name)
+
+###################################################
+# Escape/Ignore Charachter \
+# \n: New Line   \t: TAB
+
+
+# Mohamed sagte "Guten Morgen" heute !
+# Mohamed sagte \Guten Morgen\ heute !
+
+print("Mohamed sagte \"Guten Morgen\" heute !")
+print('Mohamed sagte \'Guten Morgen\' heute !')
+print('Mohamed sagte \\Guten Morgen\\ heute !')
+
+
+print("Python\nJava")
+print("Python\tJava")
