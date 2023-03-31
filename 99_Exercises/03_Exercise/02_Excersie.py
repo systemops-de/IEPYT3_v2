@@ -26,14 +26,10 @@ Enter your number : -2
 ......
 Enter your number : 0   -> exit point
 
-
-
 All numbers are : -2 -1 3 4 5
 Sum of all numbers: ....
 The Min number :  -2
 The max numbers: 5
-
-
 
 !!!!!!! Achtung Achtung::: sum(), min(), max()  sind nicht erlaubt!
 """
