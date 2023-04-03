@@ -38,3 +38,7 @@ print("Java", end = " ")
 print("PHP")
 
 
+#TODO: sep is still to be explained
+#FIXME: to correct the errors
+#HACK: asds
+#BUG: dsfdsfds

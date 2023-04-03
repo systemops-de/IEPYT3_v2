@@ -4,7 +4,7 @@ int()
 float()
 str()
 
-bool() -> special conversion
+bool() -> special conversion #TODO: bool() still open
 
 """
 

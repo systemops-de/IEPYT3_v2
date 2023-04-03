@@ -83,40 +83,95 @@ course_name = course_name.strip().title()
 print(course_name) # Einführung In Python  Python
 print()
 
-##################################################
-# String Concatenation
-first_name = "Thomas"
-last_name = "Meier"
-print(first_name + last_name)
+
+# .split() : cutting via delimiter (separator) ---> converts a string to a list of strings
+course_title = "Data Science by WBS"
+result = course_title.split(" ")
+result = course_title.split()
+print(result, type(result)) # ['Data', 'Science', 'by', 'WBS'] <class 'list'>
 
 
-full_name = first_name + " " +  last_name
-print(full_name)
+user_ip = "123.123.123.111"
+result = user_ip.split(".")
+print(result)
 
-####################################################
-# String formatting -> To build a string content
-first_name = "Sven"
-last_name = "Meier"
+user_date = "12/05/2023"
+result = user_date.split("/")
+print(result)
 
-full_name = "FN: {}  -  LN: {}".format(first_name, last_name)
-print(full_name)
+# .join() --> converts a list of string into a single string
+mylist = ["12", "05", "2023"]
+mystring = "".join(mylist)
+mystring = " ".join(mylist)
+mystring = ".".join(mylist)
+print(mystring)
 
-# Alternative
-full_name = f"FN: {first_name}  -  LN: {last_name}"
-print(full_name)
+print() 
 
-###################################################
-# Escape/Ignore Charachter \
-# \n: New Line   \t: TAB
+#
 
+mystring = "1234"
+print(mystring.isdigit())
 
-# Mohamed sagte "Guten Morgen" heute !
-# Mohamed sagte \Guten Morgen\ heute !
-
-print("Mohamed sagte \"Guten Morgen\" heute !")
-print('Mohamed sagte \'Guten Morgen\' heute !')
-print('Mohamed sagte \\Guten Morgen\\ heute !')
+mystring = "ABCD"
+print(mystring.isalpha())
 
 
-print("Python\nJava")
-print("Python\tJava")
+mystring = "ABCD123ü"  # üö : unicodes
+print(mystring.isalnum())
+
+
+mystring = "ABCD123"  
+print(mystring.isascii())
+
+mystring = "abcd"  
+print(mystring.islower())
+
+mystring = "ABCD"  
+print(mystring.isupper())
+
+mystring = "Abcd"  
+print(mystring.istitle())
+
+
+
+mystring = "123411"
+print(mystring.isnumeric())
+
+# ##################################################
+# # String Concatenation
+# first_name = "Thomas"
+# last_name = "Meier"
+# print(first_name + last_name)
+
+
+# full_name = first_name + " " +  last_name
+# print(full_name)
+
+# ####################################################
+# # String formatting -> To build a string content
+# first_name = "Sven"
+# last_name = "Meier"
+
+# full_name = "FN: {}  -  LN: {}".format(first_name, last_name)
+# print(full_name)
+
+# # Alternative
+# full_name = f"FN: {first_name}  -  LN: {last_name}"
+# print(full_name)
+
+# ###################################################
+# # Escape/Ignore Charachter \
+# # \n: New Line   \t: TAB
+
+
+# # Mohamed sagte "Guten Morgen" heute !
+# # Mohamed sagte \Guten Morgen\ heute !
+
+# print("Mohamed sagte \"Guten Morgen\" heute !")
+# print('Mohamed sagte \'Guten Morgen\' heute !')
+# print('Mohamed sagte \\Guten Morgen\\ heute !')
+
+
+# print("Python\nJava")
+# print("Python\tJava")

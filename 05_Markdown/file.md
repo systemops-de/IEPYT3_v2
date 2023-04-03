@@ -39,7 +39,7 @@ Next time i would to have a checklist of some orders:
 - [X] Pizza
 - [X] Auflauf
 - [ ] Salat
-- [ ] Drink
+- [X] Drink
 
 ___
 ## 2.2. Table
