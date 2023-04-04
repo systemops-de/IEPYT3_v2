@@ -32,13 +32,11 @@ print("Thomas","Meier", 15, 12.4,"Berlin")
 
 
 
-# end() Einstellungen
+# end Einstellung (Parameter)
 print("Python", end = "***")
 print("Java", end = " ")
 print("PHP")
 
 
-#TODO: sep is still to be explained
-#FIXME: to correct the errors
-#HACK: asds
-#BUG: dsfdsfds
+# sep Einstellung (Parameter)
+print("Python", "Java", "PHP", "ABAP", sep="*") # Python*Java*PHP*ABAP

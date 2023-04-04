@@ -1,0 +1,14 @@
+Extensions (VSCode)
+~~~~~~~~~~~~~~~~~~
+1. Python
+2. ToDo Tree
+3. ToDo Highlighter
+4. autopep8
+5. Path Intellisence
+6. Markdown All in One
+7. autoDocstring generator
+8. VS GreatIcons
+9. vscode-pdf
+10. Jupyter (+ dependencies)
+11. Rainbow CSV
+12. Excel Viewer
