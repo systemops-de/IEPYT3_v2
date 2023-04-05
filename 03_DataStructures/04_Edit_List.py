@@ -43,3 +43,7 @@ print(teilnehmende_list)
 del teilnehmende_list[0:5]
 print(teilnehmende_list)
 
+
+del teilnehmende_list
+
+print("Ende")
