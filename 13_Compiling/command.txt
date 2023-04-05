@@ -1,0 +1,4 @@
+>python -m compileall  app.py  app2.py   --> specific files
+>python -m compileall                    --> all files
+
+
