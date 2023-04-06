@@ -1,0 +1,6 @@
+first_name: Thomas  # here is ein comment
+last_name : Meier   
+teilnehmende: # this is a list
+  - Thomas
+  - Sara
+  - Ingo
