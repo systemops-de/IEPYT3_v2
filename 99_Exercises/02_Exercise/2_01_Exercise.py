@@ -38,13 +38,13 @@ print(menu)
 
 
 # User Choice of the language
-user_lang = int(input("Your choice: "))
+user_lang = int(input("Your choice: ")) 
 
 if user_lang == 1: # EN
     first_name = input("What is your first name?").title()    
     last_name = input("What is your last name?").upper()
     
-    print(f"\nWelcome Customer: {first_name} {last_name}")
+    print(f"\nWelcome Customer: {first_name} {last_name}") 
     
 elif user_lang== 2: # DE
     first_name = input("Wie ist Ihr Vorname?: " ).title()    

@@ -122,7 +122,7 @@ if age < 18:
     print("Du bist zu jung")
     all_crit_valid = False
     
-if payment_method == False:
+if payment_method == False: #FIXME: don'T compare, use bool not
     print("BZ Methode nicht vorhanden")
     all_crit_valid = False
 
@@ -134,5 +134,7 @@ if items < 1:
     print("Du muss Produkte auswählen")
     all_crit_valid = False
 
-if all_crit_valid == True:
+if all_crit_valid == True: # FIXME: use bool directly
     print("Zur Kasse bitte")
+
+
