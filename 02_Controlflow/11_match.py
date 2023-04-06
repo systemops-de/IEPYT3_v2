@@ -22,8 +22,10 @@ match user_lang:
     case "EN":
         print("Hello")        
 
-    case "SP":
+    case "SP" | "dfsf":
         print("Hola")
     
     case _:
         print("Nicht gefunden")
+
+

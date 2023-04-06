@@ -6,7 +6,7 @@ print(teilnehmende[2])
 print(teilnehmende[-1])
 print(teilnehmende[7])
 print(teilnehmende[1:5]) # ['Ingo', 'Sara', 'Lena', 'Julia']
-print(teilnehmende[1 : 7 : 2 ]) # 
+print(teilnehmende[1 : 7 : 2 ]) # Start : End -1 : Step
 
 
 print()
